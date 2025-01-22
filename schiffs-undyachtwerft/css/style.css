@@ -2063,8 +2063,3 @@ button.swiper-pagination-bullet {
     padding-right: clamp(2.1875rem ,1.8345588235rem + 1.7647058824vw ,3.125rem)
   }
 }
-@media (hover:none)and (pointer:coarse) {
-  *:hover {
-    all: unset
-  }
-}
