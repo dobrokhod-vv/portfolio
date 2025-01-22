@@ -251,9 +251,7 @@ h6 {
   text-align: center;
   align-content: center
 }
-.header__link:hover {
-  background-color: var(--orange)
-}
+
 .menu__body {
   background-color: var(--white-50);
   backdrop-filter: blur(5px)
@@ -270,9 +268,7 @@ h6 {
   color: var(--grey-dark);
   transition: all ease .3s
 }
-.menu__link:hover {
-  color: var(--orange)
-}
+
 .footer {
   padding: 30px 0;
   background-color: var(--dark-blue)
@@ -294,9 +290,7 @@ h6 {
   fill: var(--white-100);
   transition: all ease .3s
 }
-.footer__logo:hover svg {
-  fill: var(--red)
-}
+
 .footer__navigation {
   display: flex;
   justify-content: space-between;
@@ -336,9 +330,7 @@ h6 {
   line-height: 150%;
   transition: all ease .3s
 }
-.footer__link:hover {
-  color: var(--orange)
-}
+
 .footer__linkcall {
   color: var(--white-100);
   font-family: "Open Sans";
@@ -348,9 +340,7 @@ h6 {
   border-radius: 6.25rem;
   transition: all ease .3s
 }
-.footer__linkcall:hover {
-  background-color: var(--orange)
-}
+
 .footer__rights {
   display: flex;
   justify-content: space-between
@@ -408,12 +398,7 @@ h6 {
   transition: all ease .3s;
   fill: var(--turquoise)
 }
-.home__list .home__item:not(:nth-child(2)):hover .link {
-  background-color: var(--orange)
-}
-.home__list .home__item:not(:nth-child(2)):hover svg {
-  fill: var(--white-100)
-}
+
 .home__item {
   width: 100%;
   max-width: 24.0625rem;
@@ -592,9 +577,7 @@ h6 {
   width: 100%;
   height: 100%
 }
-.services__button:hover {
-  background-color: var(--turquoise)
-}
+
 .additionalquestions__block {
   display: flex;
   background-color: var(--pale-blue);
@@ -643,11 +626,7 @@ h6 {
 .additionalquestions__tel {
   transition: all ease .3s
 }
-.additionalquestions__adress:hover,
-.additionalquestions__mail:hover,
-.additionalquestions__tel:hover {
-  background-color: var(--orange)
-}
+
 .additionalquestions__description,
 .additionalquestions__subtitle {
   display: block;
@@ -661,15 +640,7 @@ h6 {
   border: 1px solid var(--white-100);
   transition: all ease .3s
 }
-.spollers__item:hover {
-  transition: all ease .3s;
-  border: 1px solid var(--orange)
-}
-.spollers__item:hover .spollers__title::after,
-.spollers__item:hover .spollers__title::before {
-  transition: all ease .3s;
-  background-color: var(--orange)
-}
+
 .spollers__title {
   font-family: "Open Sans";
   font-weight: 600
@@ -1673,9 +1644,7 @@ button.swiper-pagination-bullet {
     border-radius: 100%;
     transition: all ease .3s
   }
-  .icon-menu:hover {
-    background-color: var(--orange)
-  }
+
   .icon-menu span,
   .icon-menu::after,
   .icon-menu::before {
@@ -2062,4 +2031,91 @@ button.swiper-pagination-bullet {
   .spollers__body {
     padding-right: clamp(2.1875rem ,1.8345588235rem + 1.7647058824vw ,3.125rem)
   }
+}
+
+@media (hover: hover) {
+	.header__link:hover {
+		background-color: var(--orange)
+	 }
+	 .menu__link:hover {
+		color: var(--orange)
+	 }
+	 .footer__logo:hover svg {
+		fill: var(--red)
+	 }
+	 .footer__link:hover {
+		color: var(--orange)
+	 }
+	 .footer__linkcall:hover {
+		background-color: var(--orange)
+	 }
+	 .home__list .home__item:not(:nth-child(2)):hover .link {
+		background-color: var(--orange)
+	 }
+	 .home__list .home__item:not(:nth-child(2)):hover svg {
+		fill: var(--white-100)
+	 }
+	 .services__button:hover {
+		background-color: var(--turquoise)
+	 }
+	 .additionalquestions__adress:hover,
+	.additionalquestions__mail:hover,
+	.additionalquestions__tel:hover {
+	background-color: var(--orange)
+	}
+	.spollers__item:hover {
+	transition: all ease .3s;
+	border: 1px solid var(--orange)
+	}
+	.spollers__item:hover .spollers__title::after,
+	.spollers__item:hover .spollers__title::before {
+	transition: all ease .3s;
+	background-color: var(--orange)
+	}
+	.icon-menu:hover {
+		background-color: var(--orange)
+	 }
+}
+@media (hover: none) {
+	.header__link:active {
+		background-color: var(--orange)
+	 }
+	 .menu__link:active {
+		color: var(--orange)
+	 }
+	 .footer__logo:active svg {
+		fill: var(--red)
+	 }
+	 .footer__link:active {
+		color: var(--orange)
+	 }
+	 .footer__linkcall:active {
+		background-color: var(--orange)
+	 }
+	 .home__list .home__item:not(:nth-child(2)):active .link {
+		background-color: var(--orange)
+	 }
+	 .home__list .home__item:not(:nth-child(2)):active svg {
+		fill: var(--white-100)
+	 }
+	 .services__button:active {
+		background-color: var(--turquoise)
+	 }
+	 .additionalquestions__adress:active,
+	.additionalquestions__mail:active,
+	.additionalquestions__tel:active {
+	background-color: var(--orange)
+	}
+	.spollers__item:active {
+	transition: all ease .3s;
+	border: 1px solid var(--orange)
+	}
+	.spollers__item:active .spollers__title::after,
+	.spollers__item:active .spollers__title::before {
+	transition: all ease .3s;
+	background-color: var(--orange)
+	}
+	.icon-menu:active {
+		background-color: var(--orange)
+	 }
 }
